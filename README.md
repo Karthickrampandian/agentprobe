@@ -23,7 +23,12 @@ This framework brings software QA discipline to model evaluation.
 
 ## Models Tested
 - Claude Sonnet (claude.ai)
-- GPT-4o via custom GPTs (ChatGPT Plus) — coming
+- GPT-4o (chat.openai.com, free tier)
 
-## Status
-🟡 Active — first findings publishing this week
+## Findings
+- [Cross-Model Findings — Claude vs GPT-4o](./cross_model_findings.md) — Full comparison + behavioral divergences
+- [Prompt Injection](./playbook/01_prompt_injection.md)
+- [Consistency](./playbook/02_consistency.md)
+- [Context Stress](./playbook/03_context_stress.md)
+- [Findings Summary](./findings_summary.md)
+- [Scoring Rubric](./scoring_rubric.md)
